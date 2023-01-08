@@ -1,0 +1,8 @@
+read -p "Podaj słowo 1: " wyraz1
+read -p "Podaj słowo 2: " wyraz2
+
+if test "wyraz1"="wyraz2"
+  then
+    echo "identyczne"
+fi
+echo "Koniec programu"
